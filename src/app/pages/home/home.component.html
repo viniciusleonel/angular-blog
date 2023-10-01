@@ -1,17 +1,60 @@
-
+<!-- Aplicando o Component Menu-Bar -->
 <header>
     <app-menu-bar></app-menu-bar>
 </header>
 
+<!-- Aplicando o Component Menu-Title -->
+<app-menu-title
+    cardTitle="Vinícius Leonel"
+></app-menu-title>
 
-<app-menu-title></app-menu-title>
+<!-- Div Big-Card/Small-Card -->
 <div class="container__articles">
+    <!-- Div Big-Card -->
     <div class="articles__main">
-        <app-big-card></app-big-card>
+        <!-- Aplicando o Component Big-Card -->
+        <app-big-card 
+            photoCover="https://www.infomoney.com.br/wp-content/uploads/2022/03/Anotacao-2022-03-10-161456-e1646939842714.jpg?fit=713%2C377&quality=50&strip=all"
+            alt="Imagem dos hérois da DC"
+            cardTitle="Testando binding"
+            cardDescription="Esse texto foi passado usando um binding de HTML com TypeScript"
+        >
+        </app-big-card>
+
+        <!-- Reutilizando o Component Big-Card -->
+        <app-big-card 
+            photoCover="https://disneyplusbrasil.com.br/wp-content/uploads/2022/08/Marvel-Studios-MCU-750x422.jpg"
+            alt="Imagem dos hérois da Marvel"
+            cardTitle="Reutilizando o big-card component"
+            cardDescription="Reutilizando o mesmo card mundando apenas os parâmetros das propriedades criadas com TypeScript."
+        >
+        </app-big-card>
     </div>
+
+    <!-- Small-Card -->
     <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <!-- Aplicando o Component Small-Card -->
+        <app-small-card
+            photoCover="https://tm.ibxk.com.br/2022/05/04/04181551056727.jpg?ims=1200x675"
+            alt="Capa filme Vingadores Ultimato"
+            cardTitle="Criando o primeiro component small-card"
+        >
+        </app-small-card>
+
+        <!-- Reutilizando o Component Small-Card -->
+        <app-small-card
+            photoCover="https://blog.atacadocollections.com/wp-content/uploads/2022/03/Imagem-texto-1-2.png"
+            alt="Imagem dos hérois da DC"
+            cardTitle="Reutilizando o small-card component"
+        >
+        </app-small-card>
+
+        <!-- Reutilizando o Component Small-Card -->
+        <app-small-card
+            photoCover="https://designe.com.br/wp-content/uploads/2021/04/invencible-temporadas-2-e-3-confirmadas.png"
+            alt="Imagem serie Invencible"
+            cardTitle="Reutilizando o small-card component"
+        >
+        </app-small-card>
     </div>
 </div>
