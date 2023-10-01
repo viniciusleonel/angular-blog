@@ -1,5 +1,5 @@
 .container__articles {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 
     display: flex;
     flex-direction: row;
@@ -7,7 +7,7 @@
 }
 
 header {
-    margin-top: 15px;
+    margin-top: .9rem;
     display: flex;
     justify-content: center;
 }
