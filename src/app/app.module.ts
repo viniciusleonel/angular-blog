@@ -14,7 +14,7 @@ import { SmallCardComponent } from './components/small-card/small-card.component
     MenuBarComponent,
     MenuTitleComponent,
     BigCardComponent,
-    SmallCardComponent
+    SmallCardComponent,
   ],
   imports: [
     BrowserModule,
