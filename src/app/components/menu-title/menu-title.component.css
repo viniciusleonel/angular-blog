@@ -12,3 +12,9 @@
 .container__menu-title > hr {
     margin: 1rem 0 1rem 0px;
 }
+
+@media (max-width: 790px) {
+    .container__menu-title > h1{
+        font-size: 2rem;
+    }
+}

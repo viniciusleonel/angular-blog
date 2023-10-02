@@ -25,3 +25,17 @@
 .big-card__description > p > a{
     color: grey;
 }
+
+@media (max-width: 600px) {
+    .container__big-card {
+        margin: 0 3rem 3rem 0;
+        margin-left: 5%;
+
+        width: 20rem;
+    }
+
+    .big-card__img > img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
