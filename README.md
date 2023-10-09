@@ -1,4 +1,9 @@
 # AngularBlog
+Link do projeto: https://angular-blog-nine.vercel.app/
+
+Esse blog foi criado usando Angular e TypeScript através do curso da DIO, usando componentes dinâmicos que podem ser reutilizados a vontade.
+
+![image](https://github.com/viniciusleonel/angular-blog/assets/124933333/69e258eb-a830-4448-8666-8a38d1aaf7e1)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
 
